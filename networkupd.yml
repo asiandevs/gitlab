@@ -1,0 +1,7 @@
+- name: install RSA key for vmware
+  copy:
+    src: vmware.id_rsa.pub
+    dest: /home/.ssh/authorized_keys
+    mode: "0400"
+    owner: root
+    group: root
