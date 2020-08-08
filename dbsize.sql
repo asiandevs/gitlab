@@ -9,3 +9,6 @@ FROM (SELECT SUM (bytes) / 1024 / 1024                       data_size        FR
      (SELECT SUM (BLOCK_SIZE * FILE_SIZE_BLKS) / 1024 / 1024 controlfile_size FROM v$controlfile) d,
      (SELECT NVL (SUM (bytes), 0) / 1024 / 1024              stdbyredo_size   FROM v$standby_log) e
 /
+
+## DBA 1
+select name from v$datafile;
