@@ -1,1 +1,1 @@
-This is for git training for the beginners and beyond
+This repository is for the git training ----- the beginners and beyond
