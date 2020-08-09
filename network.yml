@@ -1,4 +1,3 @@
-### Edited by Monowar Mukul
 - name: Ensure NetworkManager Config is up-to-date
   copy:
     src: NetworkManager.conf
